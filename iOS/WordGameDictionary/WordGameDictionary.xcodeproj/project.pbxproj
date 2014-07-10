@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9479200196E0056005AA87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94791FF196E0056005AA87C /* Foundation.framework */; };
+		D9479205196E0057005AA87C /* WordGameDictionary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9479204196E0057005AA87C /* WordGameDictionary.h */; };
+		D9479207196E0057005AA87C /* WordGameDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D9479206196E0057005AA87C /* WordGameDictionary.m */; };
+		D947920E196E0057005AA87C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D947920D196E0057005AA87C /* XCTest.framework */; };
+		D947920F196E0057005AA87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94791FF196E0056005AA87C /* Foundation.framework */; };
+		D9479211196E0057005AA87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9479210196E0057005AA87C /* UIKit.framework */; };
+		D9479214196E0057005AA87C /* libWordGameDictionary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94791FC196E0056005AA87C /* libWordGameDictionary.a */; };
+		D947921A196E0057005AA87C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9479218196E0057005AA87C /* InfoPlist.strings */; };
+		D947921C196E0057005AA87C /* WordGameDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D947921B196E0057005AA87C /* WordGameDictionaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9479212196E0057005AA87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94791F4196E0056005AA87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94791FB196E0056005AA87C;
+			remoteInfo = WordGameDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D94791FA196E0056005AA87C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D9479205196E0057005AA87C /* WordGameDictionary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D94791FC196E0056005AA87C /* libWordGameDictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWordGameDictionary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94791FF196E0056005AA87C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9479203196E0057005AA87C /* WordGameDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordGameDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		D9479204196E0057005AA87C /* WordGameDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordGameDictionary.h; sourceTree = "<group>"; };
+		D9479206196E0057005AA87C /* WordGameDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordGameDictionary.m; sourceTree = "<group>"; };
+		D947920C196E0057005AA87C /* WordGameDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGameDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D947920D196E0057005AA87C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9479210196E0057005AA87C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9479217196E0057005AA87C /* WordGameDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordGameDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		D9479219196E0057005AA87C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D947921B196E0057005AA87C /* WordGameDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordGameDictionaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D94791F9196E0056005AA87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9479200196E0056005AA87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9479209196E0057005AA87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D947920E196E0057005AA87C /* XCTest.framework in Frameworks */,
+				D9479214196E0057005AA87C /* libWordGameDictionary.a in Frameworks */,
+				D9479211196E0057005AA87C /* UIKit.framework in Frameworks */,
+				D947920F196E0057005AA87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D94791F3196E0056005AA87C = {
+			isa = PBXGroup;
+			children = (
+				D9479201196E0057005AA87C /* WordGameDictionary */,
+				D9479215196E0057005AA87C /* WordGameDictionaryTests */,
+				D94791FE196E0056005AA87C /* Frameworks */,
+				D94791FD196E0056005AA87C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D94791FD196E0056005AA87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94791FC196E0056005AA87C /* libWordGameDictionary.a */,
+				D947920C196E0057005AA87C /* WordGameDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D94791FE196E0056005AA87C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94791FF196E0056005AA87C /* Foundation.framework */,
+				D947920D196E0057005AA87C /* XCTest.framework */,
+				D9479210196E0057005AA87C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9479201196E0057005AA87C /* WordGameDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D9479204196E0057005AA87C /* WordGameDictionary.h */,
+				D9479206196E0057005AA87C /* WordGameDictionary.m */,
+				D9479202196E0057005AA87C /* Supporting Files */,
+			);
+			path = WordGameDictionary;
+			sourceTree = "<group>";
+		};
+		D9479202196E0057005AA87C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9479203196E0057005AA87C /* WordGameDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9479215196E0057005AA87C /* WordGameDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D947921B196E0057005AA87C /* WordGameDictionaryTests.m */,
+				D9479216196E0057005AA87C /* Supporting Files */,
+			);
+			path = WordGameDictionaryTests;
+			sourceTree = "<group>";
+		};
+		D9479216196E0057005AA87C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9479217196E0057005AA87C /* WordGameDictionaryTests-Info.plist */,
+				D9479218196E0057005AA87C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94791FB196E0056005AA87C /* WordGameDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D947921F196E0057005AA87C /* Build configuration list for PBXNativeTarget "WordGameDictionary" */;
+			buildPhases = (
+				D94791F8196E0056005AA87C /* Sources */,
+				D94791F9196E0056005AA87C /* Frameworks */,
+				D94791FA196E0056005AA87C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordGameDictionary;
+			productName = WordGameDictionary;
+			productReference = D94791FC196E0056005AA87C /* libWordGameDictionary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D947920B196E0057005AA87C /* WordGameDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9479222196E0057005AA87C /* Build configuration list for PBXNativeTarget "WordGameDictionaryTests" */;
+			buildPhases = (
+				D9479208196E0057005AA87C /* Sources */,
+				D9479209196E0057005AA87C /* Frameworks */,
+				D947920A196E0057005AA87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9479213196E0057005AA87C /* PBXTargetDependency */,
+			);
+			name = WordGameDictionaryTests;
+			productName = WordGameDictionaryTests;
+			productReference = D947920C196E0057005AA87C /* WordGameDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D94791F4196E0056005AA87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Birdcage Games LLC";
+			};
+			buildConfigurationList = D94791F7196E0056005AA87C /* Build configuration list for PBXProject "WordGameDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D94791F3196E0056005AA87C;
+			productRefGroup = D94791FD196E0056005AA87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D94791FB196E0056005AA87C /* WordGameDictionary */,
+				D947920B196E0057005AA87C /* WordGameDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D947920A196E0057005AA87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D947921A196E0057005AA87C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D94791F8196E0056005AA87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9479207196E0057005AA87C /* WordGameDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9479208196E0057005AA87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D947921C196E0057005AA87C /* WordGameDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9479213196E0057005AA87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94791FB196E0056005AA87C /* WordGameDictionary */;
+			targetProxy = D9479212196E0057005AA87C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9479218196E0057005AA87C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9479219196E0057005AA87C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D947921D196E0057005AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D947921E196E0057005AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9479220196E0057005AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WordGameDictionary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGameDictionary/WordGameDictionary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9479221196E0057005AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WordGameDictionary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGameDictionary/WordGameDictionary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9479223196E0057005AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGameDictionary/WordGameDictionary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WordGameDictionaryTests/WordGameDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9479224196E0057005AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordGameDictionary/WordGameDictionary-Prefix.pch";
+				INFOPLIST_FILE = "WordGameDictionaryTests/WordGameDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D94791F7196E0056005AA87C /* Build configuration list for PBXProject "WordGameDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D947921D196E0057005AA87C /* Debug */,
+				D947921E196E0057005AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D947921F196E0057005AA87C /* Build configuration list for PBXNativeTarget "WordGameDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9479220196E0057005AA87C /* Debug */,
+				D9479221196E0057005AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9479222196E0057005AA87C /* Build configuration list for PBXNativeTarget "WordGameDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9479223196E0057005AA87C /* Debug */,
+				D9479224196E0057005AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D94791F4196E0056005AA87C /* Project object */;
+}
