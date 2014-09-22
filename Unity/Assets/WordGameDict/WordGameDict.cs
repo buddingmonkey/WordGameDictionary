@@ -4,34 +4,33 @@ using System.IO;
 using UnityEngine;
 
 public class WordGameDict {
-	private List<string> words = new List<string>();
+	// In C# using a HashSet is an O(1) operation. It's a dictionary without the keys!
+	private HashSet<string> words = new HashSet<string>();
+
+	private TextAsset dictText;
 
 	public WordGameDict(){
-		InitializeDictionary("ospd.txt");
+		InitializeDictionary("ospd");
 	}
 
 	public WordGameDict(string filename){
 		InitializeDictionary(filename);
 	}
-
-	//FIXME fix the file path for the stream reader
+	
 	protected void InitializeDictionary(string filename){
-		try{
-			StreamReader sr = new StreamReader(filename);
-			string dict = sr.ReadToEnd();
-			words.AddRange(dict.Split('\n'));
-			sr.Close();
-		} catch (FileNotFoundException e){
-			Debug.LogException(e);
+		dictText = (TextAsset) Resources.Load(filename, typeof (TextAsset));
+		var text = dictText.text;
+
+		foreach (string s in text.Split('\n')){
+			words.Add(s);
 		}
 	}
-
-	//FIXME fix the find method
+	
 	public bool CheckWord(string word, int minLength){
 		if (word.Length < minLength){
 			return false;
 		}
 
-		return (words.Find(word) != null);
+		return (words.Contains(word));
 	}
 }
